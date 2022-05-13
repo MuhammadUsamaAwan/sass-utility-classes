@@ -1,0 +1,367 @@
+//////////////////////////////////////////////////////////
+// SPACING
+$spacer: 1rem;
+@mixin padding($value) {
+  padding: calc($value * $spacer);
+}
+@mixin padding-x($value) {
+  padding-left: calc($value * $spacer);
+  padding-right: calc($value * $spacer);
+}
+@mixin padding-y($value) {
+  padding-top: calc($value * $spacer);
+  padding-bottom: calc($value * $spacer);
+}
+@mixin padding-t($value) {
+  padding-top: calc($value * $spacer);
+}
+@mixin padding-r($value) {
+  padding-right: calc($value * $spacer);
+}
+@mixin padding-b($value) {
+  padding-bottom: calc($value * $spacer);
+}
+@mixin padding-l($value) {
+  padding-left: calc($value * $spacer);
+}
+
+.p {
+  &-1 {
+    @include padding(1);
+  }
+  &-2 {
+    @include padding(2);
+  }
+  &-3 {
+    @include padding(3);
+  }
+  &-4 {
+    @include padding(4);
+  }
+  &-5 {
+    @include padding(5);
+  }
+  &x {
+    &-1 {
+      @include padding-x(1);
+    }
+    &-2 {
+      @include padding-x(2);
+    }
+    &-3 {
+      @include padding-x(3);
+    }
+    &-4 {
+      @include padding-x(4);
+    }
+    &-5 {
+      @include padding-x(5);
+    }
+  }
+  &y {
+    &-1 {
+      @include padding-y(1);
+    }
+    &-2 {
+      @include padding-y(2);
+    }
+    &-3 {
+      @include padding-y(3);
+    }
+    &-4 {
+      @include padding-y(4);
+    }
+    &-5 {
+      @include padding-y(5);
+    }
+  }
+  &t {
+    &-1 {
+      @include padding-t(1);
+    }
+    &-2 {
+      @include padding-t(2);
+    }
+    &-3 {
+      @include padding-t(3);
+    }
+    &-4 {
+      @include padding-t(4);
+    }
+    &-5 {
+      @include padding-t(5);
+    }
+  }
+  &r {
+    &-1 {
+      @include padding-r(1);
+    }
+    &-2 {
+      @include padding-r(2);
+    }
+    &-3 {
+      @include padding-r(3);
+    }
+    &-4 {
+      @include padding-r(4);
+    }
+    &-5 {
+      @include padding-r(5);
+    }
+  }
+  &b {
+    &-1 {
+      @include padding-b(1);
+    }
+    &-2 {
+      @include padding-b(2);
+    }
+    &-3 {
+      @include padding-b(3);
+    }
+    &-4 {
+      @include padding-b(4);
+    }
+    &-5 {
+      @include padding-b(5);
+    }
+  }
+  &l {
+    &-1 {
+      @include padding-l(1);
+    }
+    &-2 {
+      @include padding-l(2);
+    }
+    &-3 {
+      @include padding-l(3);
+    }
+    &-4 {
+      @include padding-l(4);
+    }
+    &-5 {
+      @include padding-l(5);
+    }
+  }
+}
+
+@mixin margin($value) {
+  margin: calc($value * $spacer);
+}
+@mixin margin-x($value) {
+  margin-left: calc($value * $spacer);
+  margin-right: calc($value * $spacer);
+}
+@mixin margin-y($value) {
+  margin-top: calc($value * $spacer);
+  margin-bottom: calc($value * $spacer);
+}
+@mixin margin-t($value) {
+  margin-top: calc($value * $spacer);
+}
+@mixin margin-r($value) {
+  margin-right: calc($value * $spacer);
+}
+@mixin margin-b($value) {
+  margin-bottom: calc($value * $spacer);
+}
+@mixin margin-l($value) {
+  margin-left: calc($value * $spacer);
+}
+
+.m {
+  &-1 {
+    @include margin(1);
+  }
+  &-2 {
+    @include margin(2);
+  }
+  &-3 {
+    @include margin(3);
+  }
+  &-4 {
+    @include margin(4);
+  }
+  &-5 {
+    @include margin(5);
+  }
+  &x {
+    &-1 {
+      @include margin-x(1);
+    }
+    &-2 {
+      @include margin-x(2);
+    }
+    &-3 {
+      @include margin-x(3);
+    }
+    &-4 {
+      @include margin-x(4);
+    }
+    &-5 {
+      @include margin-x(5);
+    }
+  }
+  &y {
+    &-1 {
+      @include margin-y(1);
+    }
+    &-2 {
+      @include margin-y(2);
+    }
+    &-3 {
+      @include margin-y(3);
+    }
+    &-4 {
+      @include margin-y(4);
+    }
+    &-5 {
+      @include margin-y(5);
+    }
+  }
+  &t {
+    &-1 {
+      @include margin-t(1);
+    }
+    &-2 {
+      @include margin-t(2);
+    }
+    &-3 {
+      @include margin-t(3);
+    }
+    &-4 {
+      @include margin-t(4);
+    }
+    &-5 {
+      @include margin-t(5);
+    }
+  }
+  &r {
+    &-1 {
+      @include margin-r(1);
+    }
+    &-2 {
+      @include margin-r(2);
+    }
+    &-3 {
+      @include margin-r(3);
+    }
+    &-4 {
+      @include margin-r(4);
+    }
+    &-5 {
+      @include margin-r(5);
+    }
+  }
+  &b {
+    &-1 {
+      @include margin-b(1);
+    }
+    &-2 {
+      @include margin-b(2);
+    }
+    &-3 {
+      @include margin-b(3);
+    }
+    &-4 {
+      @include margin-b(4);
+    }
+    &-5 {
+      @include margin-b(5);
+    }
+  }
+  &l {
+    &-1 {
+      @include margin-l(1);
+    }
+    &-2 {
+      @include margin-l(2);
+    }
+    &-3 {
+      @include margin-l(3);
+    }
+    &-4 {
+      @include margin-l(4);
+    }
+    &-5 {
+      @include margin-l(5);
+    }
+  }
+}
+
+.space {
+  &-x {
+    &-1 {
+      & > * + * {
+        @include margin-l(1);
+      }
+    }
+    &-2 {
+      & > * + * {
+        @include margin-l(2);
+      }
+    }
+    &-3 {
+      & > * + * {
+        @include margin-l(3);
+      }
+    }
+    &-4 {
+      & > * + * {
+        @include margin-l(4);
+      }
+    }
+    &-5 {
+      & > * + * {
+        @include margin-l(5);
+      }
+    }
+  }
+  &-y {
+    &-1 {
+      & > * + * {
+        @include margin-t(1);
+      }
+    }
+    &-2 {
+      & > * + * {
+        @include margin-t(2);
+      }
+    }
+    &-3 {
+      & > * + * {
+        @include margin-t(3);
+      }
+    }
+    &-4 {
+      & > * + * {
+        @include margin-t(4);
+      }
+    }
+    &-5 {
+      & > * + * {
+        @include margin-t(5);
+      }
+    }
+  }
+}
+
+//////////////////////////////////////////////////////////////
+// INTERACTIVITY
+.cursor-pointer {
+  cursor: pointer;
+}
+
+//////////////////////////////////////////////////////////////
+// TYPOGRAPHY
+.text {
+  &-center {
+    text-align: center;
+  }
+  &-right {
+    text-align: right;
+  }
+}
+.whitespace-nowrap {
+  white-space: nowrap;
+}
